@@ -11,7 +11,7 @@ echo.^(^?^) Ви впевнені^? ^(Enter або закрийте вікно^)
 pause>nul
 
 call :logo
-echo.^(^!^) Запуск [ADSI] SPPSvc Activator...
+echo.^(^!^) Запуск [MikronT] SPPSvc Activator...
 >nul timeout /nobreak /t 1
 
 
@@ -53,10 +53,10 @@ exit
 
 
 :logo
-title [ADSI] SPPSvc Activator
+title [MikronT] SPPSvc Activator
 color 0b
 cls
 echo.
-echo.    [ADSI] ==^> SPPSvc Activator
+echo.    [MikronT] ==^> SPPSvc Activator
 echo.
 exit /b
