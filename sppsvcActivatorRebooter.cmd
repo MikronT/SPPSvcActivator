@@ -14,7 +14,7 @@ timeout /nobreak /t 1 >nul
 
 
 echo.^(^i^) Launching service...
-for /l %%i in (4,-1,1) do sc start wuauserv
+for /l %%i in (4,-1,1) do sc start sppsvc
 timeout /nobreak /t 1 >nul
 
 
@@ -49,9 +49,12 @@ cls
 echo.
 echo.
 echo.    [MikronT] ==^> SPPSvc Activator Rebooter
-echo.   =========================================
+echo.   ==========================================
 echo.     See other here:
 echo.         github.com/MikronT
+echo.
+echo.                  Will no longer be updated^!
+echo.                  Merged with Ten Tweaker
 echo.
 echo.
 echo.
